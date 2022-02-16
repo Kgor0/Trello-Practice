@@ -1,0 +1,40 @@
+.container {
+    background-color: aqua;
+    height: 800px;
+    width: 100%;
+    background-image: url("https://dr4f7gkjfgtsc.cloudfront.net/images/contents/europe-vacation-8-tips-to-save-big-1518645826.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+
+.mainHeading {
+    color: red;
+    text-align: center;
+    font-size: larger;
+}
+
+
+#line {
+    text-align: center;
+    height: 6px;
+    width: 70%;
+    color: black;
+    background-color: black;
+}
+
+
+.container .item-container{
+    display: grid;
+    gap: 60px;
+    justify-content: center;
+    padding: 10px;
+    grid-template-columns: auto auto auto;
+}
+
+.container .item-container .item-styling {
+    color: white;
+    background-color: blueviolet;
+    padding: 8px;
+}
